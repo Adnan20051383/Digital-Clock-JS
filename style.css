@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: monospace;
+    
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.dayPic {
+    background-image: url(img/dayPic.jpg);
+}
+.nightPic {
+    background-image: url(img/nightPic.jpg);
+}
+
+#clock {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 6.5rem;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0, 100%, 0.5);
+}
+
